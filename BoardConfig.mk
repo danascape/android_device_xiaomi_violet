@@ -90,5 +90,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
 
+# Telephony
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/violet/BoardConfigVendor.mk
