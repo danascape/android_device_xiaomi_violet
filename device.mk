@@ -29,3 +29,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.base@1.0
+
+# VNDK
+PRODUCT_PACKAGES += \
+    vndk_package
