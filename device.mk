@@ -33,6 +33,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     Snap
 
+# CNE
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
@@ -47,6 +51,16 @@ PRODUCT_PACKAGES += \
 # QCOM
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-qti.xml
+
+# RIL
+PRODUCT_PACKAGES += \
+    librmnetctl \
+    libxml2
+
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.4 \
+    android.hardware.radio.config@1.2 \
+    android.hardware.secure_element@1.0
 
 # Telephony
 PRODUCT_PACKAGES += \
