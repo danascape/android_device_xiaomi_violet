@@ -29,6 +29,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
