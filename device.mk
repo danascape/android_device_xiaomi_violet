@@ -91,6 +91,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service
+
 # Framework detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
