@@ -60,6 +60,10 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.violet
+
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
