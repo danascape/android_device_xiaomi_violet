@@ -53,6 +53,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 BOARD_RAMDISK_OFFSET := 0x01000000
 
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
 
