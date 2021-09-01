@@ -106,6 +106,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
 
+# Sepolicy - Violet
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
 # Telephony
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
