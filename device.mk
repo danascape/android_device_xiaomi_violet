@@ -34,6 +34,14 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.base@1.0
 
+# Net
+PRODUCT_PACKAGES += \
+    libandroid_net
+
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.0 \
+    netutils-wrapper-1.0
+
 # QCOM
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-qti.xml
