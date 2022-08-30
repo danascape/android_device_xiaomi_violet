@@ -13,3 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# Xiaomi
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/xiaomi/violet/sepolicy/private
