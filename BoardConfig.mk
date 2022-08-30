@@ -101,6 +101,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
 
+# Sepolicy - violet
+include device/xiaomi/violet/sepolicy/violet-sepolicy.mk
+
 # Telephony
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
