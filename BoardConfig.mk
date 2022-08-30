@@ -56,6 +56,9 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Partitions - SAR
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
